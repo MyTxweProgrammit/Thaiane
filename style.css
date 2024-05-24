@@ -1,0 +1,26 @@
+.selector {
+  background: transparent;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  border: 2px solid black;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#down-arrow {
+  position: absolute;
+  right: 5px;
+  transform: rotate(180deg);
+}
+.detail {
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  background: white;
+  transform: translateY(40px);
+  opacity: 0;
+}
+
