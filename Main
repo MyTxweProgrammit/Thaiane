@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
-  <body><body>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <button class="selector" onclick="show();">
+    <i class="bi bi-caret-down-fill" id="down-arrow"></i>
+    <div class="detail">
+      
+    </div>
+  </button>
+  
+  <script>
+    function show() {
+      document.getElementById("down-arrow").style.transform = "rotate(180deg)";
+    }
+  </script>
+</body>
 </html>
+
